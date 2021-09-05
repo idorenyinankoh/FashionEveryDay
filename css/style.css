@@ -213,9 +213,17 @@
         margin: 2rem auto;
     }
     
-    .spring-row p {
+    .center-col {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sample {
         font-weight: 100;
         font-size: medium;
+        text-align: center;
+        width: 70%;
+        margin: 2rem 0;
     }
     
     .spring-row {
@@ -280,4 +288,19 @@
         font-style: italic;
         text-transform: none;
         margin: 20px 0 0;
+    }
+    
+    footer {
+        background-color: grey;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        padding: auto;
+        font-size: medium;
+    }
+    
+    .social {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
     }
