@@ -184,14 +184,31 @@ header {
     width: 100%;
     display: flex;
     background-color: white;
-    padding: 5rem;
+    padding: 5rem 7.5rem;
 }
 
 .spring-row img {
     width: 25%;
     padding: 0.5rem;
-    /* margin: 1rem;
-    position: relative; */
+}
+
+.spring-row div {
+    padding: 2rem;
+    width: 40%;
+}
+
+.spring-row h2 {
+    padding: 1rem 0;
+}
+
+.spring-row button {
+    width: 10rem;
+    margin: 2rem auto;
+}
+
+.spring-row p {
+    font-weight: 100;
+    font-size: medium;
 }
 
 .spring-row {
@@ -202,4 +219,8 @@ header {
 
 .arrow img {
     width: 10%;
+}
+
+.col6 {
+    width: 50%;
 }
