@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-section {
+.section-3 {
     background-color: #d9b1b3;
 }
 
@@ -28,14 +28,29 @@ h1 {
     color: white;
 }
 
+.construction {
+    font-family: Lato, sans-serif !important;
+    /* margin-bottom: 2rem; */
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
 input {
     background-color: white;
     border-radius: 2rem;
     height: 3rem;
-    width: 20%;
+    width: 25%;
     border-style: none;
     padding: 1rem;
     font-size: large;
+    margin: 3rem auto;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(126, 121, 121);
+    opacity: 1;
+    /* Firefox */
 }
 
 h3 {
@@ -115,10 +130,13 @@ header {
     background-color: beige;
     display: flexbox;
     padding: 0;
+    margin: 0;
 }
 
 .col4 img {
     width: 100%;
+    object-fit: fill;
+    height: 100%;
 }
 
 .row-gallery {
@@ -132,6 +150,8 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 5rem 5rem 5rem 5rem;
+    background-color: #d9b1b3;
 }
 
 .form {
@@ -148,4 +168,21 @@ header {
     border-style: none;
     font-size: large;
     padding: 1rem;
+}
+
+.section-4 {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 5rem;
+}
+
+.article-col {
+    margin: auto 2rem;
+    text-align: left;
+    width: 66.6%;
+}
+
+.article-col img {
+    margin: 2rem 0;
 }
