@@ -199,3 +199,7 @@ header {
     padding: 2rem;
     display: flex;
 }
+
+.arrow img {
+    width: 10%;
+}
